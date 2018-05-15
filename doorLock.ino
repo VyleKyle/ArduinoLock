@@ -24,7 +24,7 @@ char keys[ROWS][COLS] = { //required for setting up the keypad
 
 byte rowPins[ROWS] = {10, 9, 8, 7}; //the row pins of the keypad
 byte colPins[COLS] = {6, 5, 4, 3}; //the column pins of the keypad
-//note: Connect in 3-10 order
+//NOTE: With keypad facing up, connect in order from 3 to 10
 
 int buzz =   11; //buzzer that buzzes
 
