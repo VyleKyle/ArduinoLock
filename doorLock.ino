@@ -75,7 +75,9 @@ void loop(){
     buzzPing(1000,1); //input didn't match an existing code
     
   }else{
-    //this project never reached completion, this section was meant to open a door.
+    //this project never reached completion, this section was meant to open a physical door
+    //but there were too many limitations, particularly I live in an apartment and can't
+    //permanently modify the door. I also don't have access to any real way of temporarily modifying the door either.
   }
   kTru = true;
   pTru = true;
